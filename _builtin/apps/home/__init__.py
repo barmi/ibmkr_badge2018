@@ -1,4 +1,7 @@
-from home import launcher
+def main():
+    from home import launcher
 
-h = launcher.Display()
-h.main()
+    global app
+
+    app = launcher.Display()
+    app.main()

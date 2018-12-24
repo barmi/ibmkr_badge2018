@@ -1,4 +1,7 @@
-from netconfig import manager
+def main():
+    from netconfig import manager
 
-s = manager.Status()
-s.main()
+    global app
+
+    app = manager.Status()
+    app.main()
